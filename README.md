@@ -191,12 +191,12 @@ system and other programs running in my machine.
 
 In summary
 
-| Implementation        | Average Latency   |
-|-----------------------|-----------------  |
-| Go Serialized         | 3.68 ms           |
-| Assembly Serialized   | 3.24 ms           |
-| C Serialized          | 61,31 ms          |
-| Go Parallel           | 4,56ms            |
-| Assembly Parallel     | 7.51ms            |
-| C Parallel            | 34.1ms            |
+| Implementation        | Average Call Latency  |
+|-----------------------|-----------------------|
+| Go Serialized         | 3.68ns                |
+| Assembly Serialized   | 3.24ns                |
+| C Serialized          | 61,31ns               |
+| Go Parallel           | 4,56ns                |
+| Assembly Parallel     | 7.51ns                |
+| C Parallel            | 34.1ns                |
 
